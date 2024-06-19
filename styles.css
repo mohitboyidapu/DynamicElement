@@ -1,0 +1,98 @@
+.shift-to-right{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    position: absolute;
+    align-items: end;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+#btns{
+    width: 100vw;
+}
+
+.btn-test {
+  background-color: #4ea0d1;
+  /* Light Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-test:hover {
+  background-color: #3b85b8;
+
+}
+input,
+select {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+}
+
+
+#trigger-btn {
+  background-color: #f88181;
+  /* Light Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+#trigger-btn:hover {
+  background-color: #aa4c4c;
+  /* Darker Blue */
+}
+#trigger-beacon {
+  background-color: #f88181;
+  /* Light Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  position: fixed;
+  top: 90px;
+  right: 30px;
+}
+
+#trigger-beacon:hover {
+  background-color: #aa4c4c;
+  /* Darker Blue */
+}
+
+#trigger-tip-shift {
+    background-color: #f88181;
+    /* Light Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    right: 30px;
+  }
+  
+  #trigger-tip-shift:hover {
+    background-color: #aa4c4c;
+    /* Darker Blue */
+  }
+
+hr {
+  margin-bottom: 9rem;
+}
